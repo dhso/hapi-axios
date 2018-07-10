@@ -6,6 +6,12 @@ A Hapi plugin for axios
 npm install github:dhso/hapi-axios
 ```
 
+# axios github
+
+```
+https://github.com/axios/axios
+```
+
 # options
 ```
 //set baseUrl
