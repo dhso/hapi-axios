@@ -1,0 +1,43 @@
+{
+  "name": "hapi-axios",
+  "version": "1.0.0",
+  "description": "A Hapi plugin for axios",
+  "main": "./lib",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dhso/hapi-axios.git"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "axios"
+  ],
+  "author": {
+      "name": "dhso",
+      "email": "dhso@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/dhso/hapi-axios/issues"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "glob": "^7.0.3",
+    "joi": "^8.1.0"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "eslint": "^3.7.1",
+    "hapi": "^15.1.1"
+  },
+  "peerDependencies": {
+    "axios": "^0.18.0"
+  },
+  "homepage": "https://github.com/dhso/hapi-axios",
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
